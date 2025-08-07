@@ -1,0 +1,43 @@
+# Model weights and checkpoints (too large for git)
+*.pt
+*.pth
+
+# Specific large files
+**/weights/best.pt
+**/weights/last.pt
+yolov9-e-modify-trained.pt
+yolov9-e-modify-converted.pt
+yolov9-e.pt
+sam_vit_b_01ec64.pth
+
+# Training outputs
+runs/
+**/runs/
+
+# Large annotation files
+annotation_FSC147_384.json
+
+# Common ML/AI files to ignore
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.coverage
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Dataset files (often large)
+*.zip
+*.tar.gz
+*.rar
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*~

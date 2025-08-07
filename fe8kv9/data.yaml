@@ -1,0 +1,10 @@
+names:
+  - Exit Lights
+  - Emergency Exit
+  - Fire Exit
+  - Other Sign Type
+  - Another Sign Type
+nc: 5  # Update to match number of classes
+test: test/images
+train: train/images
+val: test/images
